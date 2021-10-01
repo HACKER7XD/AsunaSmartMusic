@@ -9,27 +9,27 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
 #    await message.reply_sticker("CAACAgUAAx0CVEgMTAACE81hCsnWvf_ao9aBzJAhgUX08F9MBgAC7wEAAl7AKFSrtnT4_eRctSAE")
     await message.reply_text(
-        f"""**👋🏻 Hello, My name is {yoga} ✨
+        f"""**👋🏻 нєℓℓσ, мү ηαмє ιs  {yoga} ✨
 
-Powered by [Yoga Pranata](https://t.me/zYxDx).
+ρσωєrєd вү [cσвяα xd](https://t.me/zYxDx).
 
-Want play music on vcg?, add me to your group.**
+wαηт ρℓαү мυsιc ση vcg?, αdd мє тσ үσυr grσυρ.**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕", url="https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ αdd мє тσ үσυr grσυρ ➕", url="https://t.me/{BOT_USERNAME}?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "🚨 Support 🚨", url="https://t.me/YBotsSupport"
+                        "🚨 sυρρσrт 🚨", url="https://t.me/MISTY_SUPORTER"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Updates 🔊", url="https://t.me/SpreadNetworks"
+                        "🔊 υρdαтєs 🔊", url="https://t.me/MISTY_SUPORT"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "🎁 Donation", url="https://paypal.me/YogaPranataDMK"
+                        "🎁 dσηαтιση", url="https://t.me/HEENAXD"
                     )]
             ]
         ),
@@ -43,11 +43,11 @@ async def gstart(_, message: Message):
             [
                 [   
                     InlineKeyboardButton(
-                        "🚨 Supports", url="https://t.me/YBotsSupport"),
+                        "🚨 sυρρσrт's", url="https://t.me/MISTY_SUPORTER"),
                     InlineKeyboardButton(
-                        "Updates 🔊", url="https://t.me/SpreadNetworks")
+                        "υρdαтє's 🔊", url="https://t.me/MISTY_SUPORT")
                 ],[ 
-                    InlineKeyboardButton("Developer", url="https.t.me/Yoga_CIC")
+                    InlineKeyboardButton("dєvєℓσρєr", url="https.t.me/XD_LIF")
                 ]
             ]
         )
@@ -60,11 +60,11 @@ async def helptext(_, message: Message):
             [
                 [   
                     InlineKeyboardButton(
-                        "🚨 Supports", url="https://t.me/YBotsSupport"),
+                        "🚨 sυρρσrт's", url="https://t.me/MISTY_SUPORTER"),
                     InlineKeyboardButton(
-                        "Updates 🔊", url="https://t.me/SpreadNetworks")
+                        "υρdαтє's 🔊", url="https://t.me/MISTY_SUPORT")
                 ],[ 
-                    InlineKeyboardButton("Developer", url="https.t.me/Yoga_CIC")
+                    InlineKeyboardButton("dєvєℓσρєr", url="https.t.me/XD_LIF")
                 ]
             ]
         )
@@ -72,16 +72,16 @@ async def helptext(_, message: Message):
 
 @Client.on_message(filters.command(["about", f"about@{BOT_USERNAME}"]) & ~filters.private & ~filters.channel)
 async def about(_, message: Message):
-      await message.reply_text("""**Run on [Heroku](https://heroku.com)\nLibrary [Pyrogram](https://docs.pyrogram.org)\nWith [Pytgcalls](https://github.com/pytgcalls/pytgcalls)\nDevelopers:\n• [Yoga Pranata](https://github.com/zYxDevs)\n• [Ihsan](https://github.com/UserLazy)**""",
+      await message.reply_text("""**Run on [Heroku](https://heroku.com)\nLibrary [Pyrogram](https://docs.pyrogram.org)\nWith [Pytgcalls](https://github.com/pytgcalls/pytgcalls)\nDevelopers:\n• [Cobra](https://t.me/XD_LIF)\n• [Queen](https://t.me/HEENAXD)**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [   
                     InlineKeyboardButton(
-                        "🚨 Supports", url="https://t.me/YBotsSupport"),
+                        "🚨 sυρρσrт's", url="https://t.me/MISTY_SUPORTER"),
                     InlineKeyboardButton(
-                        "Updates 🔊", url="https://t.me/SpreadNetworks")
+                        "υρdαтє's 🔊", url="https://t.me/MISTY_SUPORT")
                 ],[ 
-                    InlineKeyboardButton("Developer", url="https.t.me/Yoga_CIC")
+                    InlineKeyboardButton("dєvєℓσρєr", url="https.t.me/XD_LIF")
                 ]
             ]
         )
