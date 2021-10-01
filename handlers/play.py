@@ -162,7 +162,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**Asuna Smart AI assistant joined this group for play music 🎵**")
+                        message.chat.id, "**Anuska assistant joined this group for play music 🎵**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -187,7 +187,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/c4b7a21a33e9364f87eee.png"
+        thumb_name = "https://telegra.ph/file/a9faf1420342568af1842.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -196,11 +196,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🚨 Support",
-                        url=f"https://t.me/YBotsSupport"),
+                        text="😌 Support",
+                        url=f"https://t.me/MISTY_SUPORTER"),
                     InlineKeyboardButton(
-                        text="Channel 🔊",
-                        url="https://t.me/SpreadNetworks")                
+                        text="Channel ⚡",
+                        url="https://t.me/MISTY_SUPORT")                
                 ]
             ]
         )
@@ -236,11 +236,11 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚨 Support",
-                            url=f"https://t.me/YBotsSupport"),
+                            text="😌 Support",
+                            url=f"https://t.me/MISTY_SUPORTER"),
                         InlineKeyboardButton(
-                            text="Updates 📡",
-                            url=f"https://t.me/SpreadNetworks"),
+                            text="Updates ⚡",
+                            url=f"https://t.me/MISTY_SUPORT"),
                     ],
                     [
                         InlineKeyboardButton(
@@ -254,7 +254,7 @@ async def play(_, message: Message):
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/c4b7a21a33e9364f87eee.png"
+            thumb_name = "https://telegra.ph/file/a9faf1420342568af1842.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -275,7 +275,7 @@ async def play(_, message: Message):
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
-            return await lel.edit("🧐 **What's the song you want to play?\nExample » /play alone\n\nSupport : @YBotsSupport**")
+            return await lel.edit("🧐 **What's the song you want to play?\nExample » /play alone\n\nSupport : @MISTY_SUPORTER**")
         await lel.edit("🔎 **Finding the song...**")
         query = message.text.split(None, 1)[1]
         # print(query)
@@ -311,11 +311,11 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚨 Support",
-                            url=f"https://t.me/YBotsSupport"),
+                            text="😌 Support",
+                            url=f"https://t.me/MISTY_SUPORTER"),
                         InlineKeyboardButton(
-                            text="Updates 📡",
-                            url=f"https://t.me/SpreadNetworks"),
+                            text="Updates ⚡",
+                            url=f"https://t.me/MISTY_SUPORT"),
                     ],
                     [
                         InlineKeyboardButton(
